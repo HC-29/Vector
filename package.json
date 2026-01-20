@@ -1,0 +1,20 @@
+{
+  "name": "vector",
+  "version": "1.0.0",
+  "description": "A complex hub of calculators and tools that is frequently updated.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HC-29/Vector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HC-29/Vector/issues"
+  },
+  "homepage": "https://github.com/HC-29/Vector#readme"
+}

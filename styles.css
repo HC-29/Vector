@@ -1,0 +1,33 @@
+:root {
+    --bg: #0b1026;
+    --accent: #00f2ff;
+    --card-bg: rgba(255, 255, 255, 0.05);
+}
+
+body {
+    background: var(--bg);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2rem;
+    transition: 0.3s;
+}
+
+.card:hover { border-color: var(--accent); transform: scale(1.02); }
+
+span { color: var(--accent); }
