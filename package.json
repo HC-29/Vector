@@ -4,7 +4,8 @@
   "description": "A complex hub of calculators and tools that is frequently updated.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/tailwindcss -i ./styles.css -o ./dist/output.css",
+    "watch": "./node_modules/.bin/tailwindcss -i ./styles.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/HC-29/Vector/issues"
   },
-  "homepage": "https://github.com/HC-29/Vector#readme"
+  "homepage": "https://github.com/HC-29/Vector#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
 }
